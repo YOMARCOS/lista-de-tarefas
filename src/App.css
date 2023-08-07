@@ -1,0 +1,85 @@
+body{
+  font-family: monospace;
+  background: #989ee4;
+  padding: 30px;
+  color: black;
+  background-image:linear-gradient(rgb(146, 146, 146), rgb(75, 75, 75), rgb(0, 0, 0)) ;
+
+  
+}
+.app{
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 1px;
+} 
+h1{
+  text-align: center;
+}
+h2{
+  margin-bottom: 10px;
+}
+p{
+  margin: 10px;
+}
+input{
+  margin: 2px;
+  box-sizing: border-box ;
+}
+button{
+  margin:2px;
+  background: #5cdf34;
+  color: floralwhite;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+button:hover{
+  opacity: 1;
+}
+.remove{
+  background: #c03d3d;
+}
+.form-tarefa{
+padding-bottom: 1.5rem;
+}
+input, select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+.lista-tarefas{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+.tarefa{
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #cbebf3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,  0.2);
+  display: flex; 
+  justify-content: space-between; align-items: center;
+}
+.filter, .search{
+
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px ;
+  gap: 3rem;
+}
+ .filter-options {
+  
+  display: flex; justify-content: space-between; 
+}
+.filter-options div {
+display: 1 1 0;
+}
