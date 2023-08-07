@@ -14,7 +14,7 @@
 
 <p> Observação:
 Para que a aplicação funcione é necessário que os comandos "npm install" e "npm install prop-types" sejam emitidos em seu terminal.
-Para iniciar o servidor deve ser emitido o comando "npm run dev" em seu terminal./p>
+Para iniciar o servidor deve ser emitido o comando "npm run dev" em seu terminal.</p>
 
 
 
